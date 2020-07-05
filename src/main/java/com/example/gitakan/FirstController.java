@@ -17,4 +17,9 @@ public class FirstController {
     public String getShow() {
         return "show";
     }
+
+    @GetMapping("/create")
+    public String create() {
+        return "create";
+    }
 }
