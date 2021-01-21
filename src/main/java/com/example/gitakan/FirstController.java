@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class FirstController {
 
-
     @GetMapping("/hello")
     public String getAnswer() {
         return "hello";
